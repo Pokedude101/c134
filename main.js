@@ -35,10 +35,10 @@ function draw(){
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height)
 
             if(objects[i].label != "person"){
-                song.play()
+                song.play();
             }
             else{
-                song.stop()
+                song.stop();
             }
         }
     
